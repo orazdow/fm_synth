@@ -1,8 +1,7 @@
-#include "SLib.h"
-#include "Pa.h"
-#include "Fm.h"
+#include "slib.h"
+#include "pa.h"
+#include "fm.h"
 #include "windows.h"
-
 
     
 KeyHandler keys;

@@ -14,7 +14,6 @@ double notes[128];
 void initSineTable(float table[], int tsize, bool guard_point){
     for (int i = 0; i < tsize; i++) {
          table[i] =  sin(tau*(i/(double)tsize)); 
-       //  table[i] = tanh(sin(tau*(i/(double)tsize))*2.0);
     }
     if(guard_point)
         table[tsize] = table[0];
